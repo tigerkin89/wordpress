@@ -16,7 +16,7 @@ docker run -d --name example-wp -p 80:80 --link db:db wordpress
 ## Git upload
 ```ruby
 $git init 
-$git add Dockerfile $
+$git add *
 $git commit -m "ffff" 
 $git branch -M main git remote add origin https://github.com/tigerkin89/wordpress 
 $git push origin +main
