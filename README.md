@@ -21,4 +21,7 @@ $git commit -m "ffff"
 $git branch -M main git remote add origin https://github.com/tigerkin89/wordpress 
 $git push origin +main
 ```
-
+## 해설
+Dockerfile, entrypoint.sh에 대한 자세한 설명은 여기
+( http://pyrasis.com/book/DockerForTheReallyImpatient/Chapter16/ )를
+참고바립니다.
